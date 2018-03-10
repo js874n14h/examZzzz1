@@ -104,7 +104,7 @@ file_list = glob.glob('/var/log/httpd/access_log')
 
 
 
-#入力したファイルが存在するしたらfileの配列に加える。
+#入力したファイルが存在するならfile_listの配列に加える。
 
 if dd==True:
     file_list.append(file1)
