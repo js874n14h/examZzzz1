@@ -4,6 +4,8 @@
 
 # apacheアクセスログ簡易解析ツール(python３系)
 
+リモートホストごとのアクセス数を表示する
+
 apache_log_parserは標準モジュールではないから
 
 sudo easy_install apache-log-parser
