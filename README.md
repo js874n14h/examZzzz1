@@ -8,7 +8,7 @@
 
 apache_log_parserは標準モジュールではないから
 
-sudo easy_install apache-log-parser
+`sudo easy_install apache-log-parser`
 
 でインポート。
 
