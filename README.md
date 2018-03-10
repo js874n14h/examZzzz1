@@ -20,7 +20,7 @@ datetime,glob,osは標準モジュール
 
 # 起動方法
 
-python ceg.pyで起動
+'python ceg.py'で起動
 
 
 コマンドラインツール
@@ -40,7 +40,7 @@ python ceg.pyで起動
 他に読み込みたいファイルがある場合（１つのみだが）指定できる。存在しなければそのファイルの解析は無視する。
 
 
-"例:HHH/FFF/pass/xxx.log"
+"例:HHH/FFF/pass/xxx.log"(絶対パス)
 
 
 一応ファイル名とパスが正しいか確認しているので正しければ１以外を入力       
