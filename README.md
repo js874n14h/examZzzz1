@@ -20,7 +20,7 @@ datetime,glob,osは標準モジュール
 
 # 起動方法
 
-'python ceg.py'で起動
+`python ceg.py`で起動
 
 
 コマンドラインツール
