@@ -147,7 +147,7 @@ for filename in file_list:
     
                 a=1
             
-            
+        #期間指定がない場合    
         else:    
             ee=log_data['remote_host']
             for src in listd.keys():
