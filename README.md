@@ -10,7 +10,7 @@ sudo easy_install apache-log-parser
 
 でインポート。
 
-datetime,glob,osは標準モジュール
+datetime,glob,osは標準モジュール         
 
 
 
@@ -25,7 +25,7 @@ python ceg.pyで起動
 
 指定ファイルや期間指定が特にない場合は全て0(１以外)を入力すれば、
 
-/var/log/httpd/access_logのアクセスログから各リモートホストのごとのアクセス数を降順で表示。
+/var/log/httpd/access_logのアクセスログから各リモートホストのごとのアクセス数を降順で表示。      
 
 
 
@@ -41,7 +41,7 @@ python ceg.pyで起動
 "例:HHH/FFF/pass/xxx.log"
 
 
-一応ファイル名とパスが正しいか確認しているので正しければ１以外を入力
+一応ファイル名とパスが正しいか確認しているので正しければ１以外を入力       
 
 
 
@@ -49,7 +49,7 @@ python ceg.pyで起動
 期間指定
 
 
-ある場合は１を入力、ない場合は１以外を入力
+ある場合は１を入力、ない場合は１以外を入力           
 
 
 
@@ -57,7 +57,7 @@ python ceg.pyで起動
 
 year/month/day(2000/04/08)形式
 
-大小比較で範囲を決定
+大小比較で範囲を決定           
 
 
 
