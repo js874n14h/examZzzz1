@@ -10,7 +10,7 @@ apache_log_parserは標準モジュールではないから
 
 `sudo easy_install apache-log-parser`
 
-でインポート。
+でインストール。
 
 datetime,glob,osは標準モジュール         
 
