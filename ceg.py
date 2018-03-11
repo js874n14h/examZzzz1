@@ -126,7 +126,8 @@ for filename in file_list:
    
         log_data = parser(line)
         
-        #期間指定がある場合は指定範囲内かどうかチェックする
+        # ディクショナリ型のkeyをリモートホストのアドレスにして、valueを個数にしている。
+        # 期間指定がある場合は指定範囲内かどうかチェックする
         
         if cc==1:
             rr=log_data['time_received_datetimeobj']
