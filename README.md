@@ -16,13 +16,17 @@ datetime,glob,osは標準モジュール
 
 ### ソースの解説
 apache_log_parserで要素ごとのkeyとvalueに分けている。
+
 `parser = apache_log_parser.make_parser('%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"')`
 
 `log_data = parser(line)`
 
 logの形式を指定して各要素をディクショナリ型の配列にしている。
+
 リモートホストのアドレスと日時のkey
+
 `log_data['remote_host']`
+
 `log_data['time_received_datetimeobj']`
 
 年日時はdatetime型であり、比較可能
