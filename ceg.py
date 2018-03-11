@@ -178,4 +178,4 @@ for filename in file_list:
 
 #降順にソート
 for key, value in sorted(listd.items(), key=lambda x: -x[1]):
-    print('{0:<15}: {1:>6}'.format(key, value))
+    print('{0:<15}: {1:>7}'.format(key, value))
